@@ -66,6 +66,8 @@ nav ul li a:hover {
     text-indent: 1.5em;
 }
 
+
+
 figure{
     padding-top: 10px;
     text-align: center;
@@ -107,6 +109,11 @@ h3 {
 	color: navy;
 }
 
+
+
+
+
+/* Footer Style */
 footer {
     width: 910px;
     margin: 0;
@@ -140,4 +147,46 @@ footer a:hover {
     text-decoration: none;
 	background-color: yellow;
 	color: navy;
+}
+
+/* Form Style */
+form#contact {
+	display: -webkit-flex;
+	display: flex;
+	-webkit-flex-flow: row wrap;
+	flex-flow: row wrap;
+}
+
+form#contact > fieldset {
+	background-color: yellow;
+	border-radius: none;
+	-webkit-flex: 1 1 300px;
+	flex: 1 1 300px;
+	font-size: 0.85em;
+	padding: 10px;
+	margin: 10px;
+	color: navy;
+}
+
+textarea {
+	margin-top: 10px;
+	height: 100px;
+	width: 95%;
+}
+
+
+
+
+
+
+/* Form Buttons Style */
+div#buttons {
+	text-align: left;
+	width: 100%;
+}
+
+input[type='submit'], input[type='reset'] {
+	font-size: .75em;
+	padding: 5px;
+	margin: 15px;
 }
