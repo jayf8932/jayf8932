@@ -1,0 +1,143 @@
+@charset "utf-8";
+/*
+    Author:   Josue Francisco
+
+*/
+
+* {
+    margin: 0; 
+    padding: 0;
+}
+
+body {
+    font-size: 1.1em;
+    font-family: Arial, Helvetica, sans-serif;
+	background-color: white;
+}
+
+#container {
+    width: 930px;
+    margin: 0 auto;
+    background-color: white;
+}
+
+
+header {
+    width: 910px;
+    margin-bottom: 30px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+nav {
+    width: 200px;
+    margin: 0 5px 0 5px; 
+    padding: 25px 10px 0 10px;
+    float: left;
+    text-align: center;
+}
+
+nav ul {
+    font-weight: bold;
+    list-style: none;
+}
+
+nav ul li a {
+    padding: 5px;
+    color: navy;
+    text-decoration: none;
+    display:block;
+}
+
+nav ul li a:hover {
+    background: yellow;
+    border-radius: none;
+    color: navy;
+}
+
+#main {
+    width: 446px;
+    padding: 10px;
+    float: left;
+    color: navy;
+}
+
+#main p {
+    text-indent: 1.5em;
+}
+
+figure{
+    padding-top: 10px;
+    text-align: center;
+}
+
+figcaption {
+    font-style: italic;
+}
+
+aside {
+    width: 200px;
+    margin: 0 5px 0 5px;
+    padding: 10px;
+    float: right;
+}
+
+aside p {
+    font-size: 0.9em;
+	color: navy;
+}
+
+aside li {
+	color: navy;
+	font-size: 0.75em;
+}
+
+h2 {
+    font-size: 1.4em;
+    text-align: center;
+    padding-bottom: 0.5em;
+	text-decoration: underline;
+	color: navy;
+}
+
+h3 {
+    text-align: center;
+    padding-bottom: 0.5em;
+    padding-top: 0.5em;
+	color: navy;
+}
+
+footer {
+    width: 910px;
+    margin: 0;
+    padding: 10px;
+    background-color: navy;
+    clear: both;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+}
+
+#wrapper {
+    width: 930px;
+    margin-bottom: 10px;
+    border: 2px solid;
+	border-color: navy;
+}/* navigation for footer */
+
+footer a:link {
+    color: white;
+    text-decoration: none;
+}
+
+footer a:visited {
+    color: yellow;
+    background-color: navy;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: none;
+	background-color: yellow;
+	color: navy;
+}
