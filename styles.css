@@ -109,6 +109,20 @@ h3 {
 	color: navy;
 }
 
+#blue {
+	background: navy;
+	color: white;
+	display: block;
+	padding: 10px;
+}
+
+#yellow {
+	background: yellow;
+	color: navy;
+	display: block;
+	padding: 10px;
+}
+
 
 
 
