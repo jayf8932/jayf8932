@@ -10,7 +10,8 @@
 }
 
 body {
-    font-size: 1.1em;
+    background-image: url("Background.jpg");
+	font-size: 1.1em;
     font-family: Arial, Helvetica, sans-serif;
 	background-color: white;
 }
@@ -127,6 +128,34 @@ img {
 	padding: 10px;
 }
 
+table {
+	width: 100%;
+	border: 1.5px solid navy;
+}
+
+
+tr:nth-child(odd) {
+    background-color: yellow;
+	color: navy;
+}
+
+
+tr:nth-child(even) {
+    background-color: navy;
+	color: white;
+}
+
+td {
+	border: 3px;
+	border-color: navy;
+	border-style: solid;
+}
+
+
+
+table td {
+	padding: 10px;
+}
 
 
 /* Footer Style */
@@ -146,7 +175,9 @@ footer {
     margin-bottom: 10px;
     border: 2px solid;
 	border-color: navy;
-}/* navigation for footer */
+}
+
+/* navigation for footer */
 
 footer a:link {
     color: white;
